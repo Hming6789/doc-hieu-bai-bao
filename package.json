@@ -1,0 +1,37 @@
+{
+  "name": "doc-hieu-bai-bao-khoa-hoc",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Website hỗ trợ đọc hiểu và đối chiếu bài báo khoa học tiếng Anh (PDF) bằng tiếng Việt",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "node --test --experimental-strip-types tests/core.test.ts"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "dependencies": {
+    "@google/genai": "^3.6.0",
+    "katex": "^0.19.1",
+    "lucide-react": "^1.75.0",
+    "mupdf": "^1.28.6",
+    "next": "^15.5.29",
+    "pdfjs-dist": "^4.10.38",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.5",
+    "@types/katex": "^0.16.8",
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "postcss": "^8.5.33",
+    "tailwindcss": "^4.3.5",
+    "tsx": "^4.23.15",
+    "typescript": "^5.8.2"
+  }
+}
